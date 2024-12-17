@@ -29,7 +29,7 @@ const social = [
     {
         name: 'LinkedIn',
         icon: 'linkedin',
-        link: 'https://www.linkedin.com/company/once-ui/',
+        link: 'https://www.linkedin.com/in/lindiwe-dlomo-b50050b8/',
     },
     {
         name: 'X',
@@ -39,7 +39,7 @@ const social = [
     {
         name: 'Email',
         icon: 'email',
-        link: 'mailto:example@gmail.com',
+        link: 'mailto: lindiwethaby@hotmail.com',
     },
 ]
 
@@ -47,8 +47,8 @@ const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Design engineer and builder</>,
-    subline: <>I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive<br/> user experiences. After hours, I build my own projects.</>
+    headline: <>Software Developer </>,
+    subline: <>I'm Lindiwe, a Software Developer at <InlineCode>SBV Services</InlineCode>, where I developed and supported<br/> Softwares. After hours, I build my own projects.</>
 }
 
 const about = {
@@ -69,16 +69,16 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology.</>
+        description: <>Lindiwe is a Johannesburg-based Software Developer with a passion for transforming complex challenges into simple, elegant software solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology.</>
     },
     work: {
         display: true, // set to false to hide this section
         title: 'Work Experience',
         experiences: [
             {
-                company: 'FLY',
-                timeframe: '2022 - Present',
-                role: 'Senior Design Engineer',
+                company: 'SBV Services',
+                timeframe: '2023 - 2024',
+                role: 'Junior Software Developer',
                 achievements: [
                     <>Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.</>,
                     <>Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster.</>
