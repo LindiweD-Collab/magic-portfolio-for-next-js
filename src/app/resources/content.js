@@ -1,21 +1,21 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-    firstName: 'Selene',
-    lastName:  'Yu',
+    firstName: 'Lindiwe Thabsile',
+    lastName:  'Dlomo',
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
-    role:      'Design Engineer',
+    role:      'Software Developer/Data Analyst',
     avatar:    '/images/avatar.jpg',
-    location:  'Asia/Jakarta',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ['English', 'Bahasa']  // optional: Leave the array empty if you don't want to display languages
+    location:  'Johannesburg/South Africa',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+    languages: ['English', 'IsiZulu']  // optional: Leave the array empty if you don't want to display languages
 }
 
 const newsletter = {
     display: true,
     title: <>Subscribe to {person.firstName}'s Newsletter</>,
-    description: <>I occasionally write about design, technology, and share thoughts on the intersection of creativity and engineering.</>
+    description: <>Detail-driven Software Developer with a passion for crafting innovative solutions. Proficient in Java, Python, and C#, I excel in designing and developing efficient software systems. Additionally, I possess a keen interest in Data Analysis, leveraging my skills to extract valuable insights and drive informed decision-making. I'm excited to bring my technical expertise and analytical mindset to drive success in the tech industry.</>
 }
 
 const social = [
